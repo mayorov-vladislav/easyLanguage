@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+
+}
+
+.hero {
+    height: 810px;
+    width: 100%;
+    background-image: url('../images/hero.png');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.hero .navbar { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px;
+    padding-top: 28px;
+}
+
+.hero .navbar > a {
+    color: #00ABEC;
+    font-family: 'Gloria Hallelujah';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.hero .navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .navbar ul li {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding-left: 24px;
+}

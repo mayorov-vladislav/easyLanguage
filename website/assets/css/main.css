@@ -60,3 +60,62 @@ a {
     font-weight: 400;
     padding-left: 24px;
 }
+
+.main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 120px;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 60px;
+}
+
+.left-part {
+    flex: 1;
+    padding-right: 20px;
+    max-width: 470px;
+    padding-top: 98px;
+}
+
+.left-part h1 { 
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 37px;
+}
+
+.left-part a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00ABEC;
+    text-decoration: underline;
+}
+
+.right-part {
+    flex: 1;
+    padding-left: 20px;
+    max-width: 805px;
+    padding-top: 74px;
+}
+
+.right-part p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-bottom: 47px;
+}
+
+.vertical-line {
+    width: 2px; /* Ширина линии */
+    height: 100%; /* Высота линии */
+    background-color: #00ABEC; /* Цвет линии */
+    margin: 0 30px; /* Отступы слева и справа */
+}
